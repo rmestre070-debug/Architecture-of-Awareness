@@ -155,5 +155,5 @@ Contact
 For questions, collaborations, or extensions of the model, contact:
 
 Rob — Cognitive Architecture Lab
-
+robertmestre@proton.me 
 ---
