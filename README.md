@@ -3,6 +3,14 @@ A formal cognitive architecture integrating Hilbert‑space geometry, operator t
 
 ---
 
+Clarification of AI Involvement
+
+This manuscript was collaboratively authored by Rob and Microsoft Copilot. Copilot contributed substantively to the development, refinement, and articulation of the theoretical framework presented here.
+
+Additional AI systems (e.g., Gemini, DeepSeek, Grok) were consulted only in a limited evaluative capacity. Their outputs were used for comparison, critique, and stress‑testing. They did not participate in authorship, did not generate conceptual material, and are not considered contributors.
+
+This statement is provided to ensure transparency regarding the nature and extent of AI involvement.
+
 Overview
 
 This repository contains the full v3.3 implementation of the Architecture of Awareness, a three‑layer cognitive framework consisting of:
