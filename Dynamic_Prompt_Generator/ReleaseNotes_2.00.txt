@@ -1,0 +1,50 @@
+# Scholarly Prompt Studio — Release Notes  
+## Version 2.0.0 — 2026-04-06
+
+This is the largest and most significant update to Scholarly Prompt Studio to date.  
+The entire controller architecture has been rebuilt for clarity, stability, and extensibility.
+
+---
+
+## 🚀 Highlights
+
+### 🔧 Complete Controller Rebuild
+The `scholarly_studio.py` file has been fully rewritten with:
+- Cleaner structure  
+- Better separation of concerns  
+- More predictable lifecycle behavior  
+- Improved readability and maintainability  
+
+### 🧠 Stable Brain Tint System
+A new retry‑until‑ready mechanism ensures the brain icon tint updates reliably on Android/Pydroid, even when toolbar icons load late.
+
+### 🧩 Plugin Loader Improvements
+- Directory validation  
+- Cleaner scanning  
+- More robust error handling  
+- Better integration with the engine  
+
+### 🎛️ UI/UX Enhancements
+- Improved kernel indicator  
+- Cleaner toast messaging  
+- More consistent naming  
+- Simplified screen switching  
+
+### 🐞 Bug Fixes
+- Tint not applying due to KivyMD timing issues  
+- Toolbar icon reference inconsistencies  
+- Early‑startup crashes  
+- Suggestion chip update issues  
+
+---
+
+## 📦 Files Updated
+- `scholarly_studio.py` (major rewrite)  
+- `main.kv` (minor cleanup)  
+- Plugin loader  
+- Kernel indicator logic  
+
+---
+
+## 🧭 Next Steps
+See `ROADMAP.md` for upcoming features and long‑term goals.

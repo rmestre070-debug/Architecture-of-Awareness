@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Kivy
+*.log
+*.kv~
+.kivy/
+.kv/
+
+# Android / Pydroid
+/storage/emulated/0/Android/data/*
+*.apk
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Virtual environments
+venv/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project data
+settings.json
+history.json

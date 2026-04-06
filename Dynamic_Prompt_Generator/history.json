@@ -1,0 +1,237 @@
+[
+    {
+        "timestamp": "2026-04-05T03:44:32",
+        "content": "Task:\nawareness research\n",
+        "meta": {
+            "mode": "generate",
+            "task": "awareness research",
+            "context": "",
+            "requirements": "",
+            "style": "",
+            "source": ""
+        }
+    },
+    {
+        "timestamp": "2026-04-05T03:48:01",
+        "content": "Task:\nawareness research\n",
+        "meta": {
+            "mode": "generate",
+            "task": "awareness research",
+            "context": "",
+            "requirements": "",
+            "style": "",
+            "source": ""
+        }
+    },
+    {
+        "timestamp": "2026-04-05T04:19:04",
+        "content": "Task:\nawareness research\n\nContext:\nneurophysics physics\n\nStyle:\nscientific\n",
+        "meta": {
+            "mode": "generate",
+            "task": "awareness research",
+            "context": "neurophysics physics",
+            "requirements": "",
+            "style": "scientific",
+            "source": ""
+        }
+    },
+    {
+        "timestamp": "2026-04-05T04:35:29",
+        "content": "Task:\nneuroscience\n\nContext:\nmedical\n\nRequirements:\n- Be precise and unambiguous.\n- Use clear, professional language.\n\nStyle / Tone:\nresearch\n\nOutput:\nGenerate a clear, structured scholarly prompt that:\n- Respects the task and context.\n- Satisfies the requirements.\n- Adopts the requested style.\n- Is ready to be used with an AI model or as a research scaffold.",
+        "meta": {
+            "mode": "generate",
+            "task": "neuroscience",
+            "context": "medical",
+            "requirements": "",
+            "style": "research",
+            "source": ""
+        }
+    },
+    {
+        "timestamp": "2026-04-05T05:05:21",
+        "content": "Task:\nawareness research \u2014 Frame awareness as a multi-layer cognitive process.\n\nContext:\nscientific\n\nRequirements:\n- Be precise and unambiguous.\n- Use clear, professional language.\n- Align with academic standards and critical reasoning.\n- Include explicit justification or reasoning steps.\n\nStyle / Tone:\nresearch \u2014 Use a formal, scholarly tone.\n\nOutput:\nGenerate a clear, structured scholarly prompt that:\n- Respects the task and context.\n- Satisfies the requirements.\n- Adopts the requested style.\n- Is ready for use with an AI model or as a research scaffold.",
+        "meta": {
+            "mode": "generate",
+            "task": "awareness research \u2014 Frame awareness as a multi-layer cognitive process.",
+            "context": "scientific",
+            "requirements": "",
+            "style": "research \u2014 Use a formal, scholarly tone.",
+            "source": ""
+        }
+    },
+    {
+        "timestamp": "2026-04-05T05:07:36",
+        "content": "Task:\nawareness research \u2014 Frame awareness as a multi-layer cognitive process. Frame awareness as a multi-layer cognitive process. Frame awareness as a multi-layer cognitive process.\n\nContext:\nscientific \u2014 Provide background so the prompt stands alone.\n\nRequirements:\n- Be precise and unambiguous.\n- Use clear, professional language.\n- Align with academic standards and critical reasoning.\n- Include explicit justification or reasoning steps.\n\nStyle / Tone:\nresearch \u2014 Use a formal, scholarly tone.\n\nOutput:\nGenerate a clear, structured scholarly prompt that:\n- Respects the task and context.\n- Satisfies the requirements.\n- Adopts the requested style.\n- Is ready for use with an AI model or as a research scaffold.",
+        "meta": {
+            "mode": "generate",
+            "task": "awareness research \u2014 Frame awareness as a multi-layer cognitive process. Frame awareness as a multi-layer cognitive process. Frame awareness as a multi-layer cognitive process.",
+            "context": "scientific \u2014 Provide background so the prompt stands alone.",
+            "requirements": "",
+            "style": "research \u2014 Use a formal, scholarly tone.",
+            "source": ""
+        }
+    },
+    {
+        "timestamp": "2026-04-05T05:07:50",
+        "content": "Refined Scholarly Text\n----------------------\nBase Text:\nTask:\nawareness research \u2014 Frame awareness as a multi-layer cognitive process. Frame awareness as a multi-layer cognitive process. Frame awareness as a multi-layer cognitive process.\n\nContext:\nscientific \u2014 Provide background so the prompt stands alone.\n\nRequirements:\n- Be precise and unambiguous.\n- Use clear, professional language.\n- Align with academic standards and critical reasoning.\n- Include explicit justification or reasoning steps.\n\nStyle / Tone:\nresearch \u2014 Use a formal, scholarly tone.\n\nOutput:\nGenerate a clear, structured scholarly prompt that:\n- Respects the task and context.\n- Satisfies the requirements.\n- Adopts the requested style.\n- Is ready for use with an AI model or as a research scaffold.\n\nRefinement Guidance:\n- Improve clarity and coherence.\n- Preserve the original intent.\n- Strengthen conceptual structure.\n- Align with the indicated style if provided.",
+        "meta": {
+            "mode": "refine",
+            "notes": "",
+            "target_style": ""
+        }
+    },
+    {
+        "timestamp": "2026-04-05T05:17:58",
+        "content": "Task:\nawareness \u2014 Frame awareness as a multi-layer cognitive process.\n\nContext:\nConsider awareness as a multi-layer cognitive and phenomenological process, involving subjective experience, functional mechanisms, and systemic interactions.\n\nRequirements:\n- Be precise and unambiguous.\n- Use clear, professional language.\n\nStyle / Tone:\nscientific \u2014 Use a formal, scholarly tone.\n\nOutput:\nGenerate a clear, structured scholarly prompt that:\n- Respects the task and context.\n- Satisfies the requirements.\n- Adopts the requested style.\n- Is ready for use with an AI model or as a research scaffold.",
+        "meta": {
+            "mode": "generate",
+            "task": "awareness \u2014 Frame awareness as a multi-layer cognitive process.",
+            "context": "",
+            "requirements": "",
+            "style": "scientific \u2014 Use a formal, scholarly tone.",
+            "source": ""
+        }
+    },
+    {
+        "timestamp": "2026-04-05T05:25:28",
+        "content": "Task:\nawareness \u2014 Frame awareness as a multi-layer cognitive process.\n\nContext:\nConsider awareness as a multi-layer cognitive and phenomenological process, involving subjective experience, functional mechanisms, and systemic interactions.\n\nRequirements:\n- Be precise and unambiguous.\n- Use clear, professional language.\n\nStyle / Tone:\nprofessional \u2014 Use a formal, scholarly tone.\n\nOutput:\nGenerate a clear, structured scholarly prompt that:\n- Respects the task and context.\n- Satisfies the requirements.\n- Adopts the requested style.\n- Is ready for use with an AI model or as a research scaffold.",
+        "meta": {
+            "mode": "generate",
+            "task": "awareness \u2014 Frame awareness as a multi-layer cognitive process.",
+            "context": "",
+            "requirements": "",
+            "style": "professional \u2014 Use a formal, scholarly tone.",
+            "source": "",
+            "awareness_mode": "default"
+        }
+    },
+    {
+        "timestamp": "2026-04-05T05:44:17",
+        "content": "Task:\nawareness research\n\nStyle:\nscientific \u2014 Specify tone (formal, conversational, technical).\n\nPhenomenological Guidance:\n- Focus on lived experience.\n- Describe intentional structures.\n- Include first-person or experiential framing.",
+        "meta": {
+            "mode": "generate",
+            "task": "awareness research",
+            "context": "",
+            "requirements": "",
+            "style": "scientific \u2014 Specify tone (formal, conversational, technical).",
+            "source": "",
+            "awareness_mode": "phenomenological"
+        }
+    },
+    {
+        "timestamp": "2026-04-05T06:25:38",
+        "content": "Task:\nautism spectum adults\n\nStyle:\nprofessional \u2014 Specify tone (formal, conversational, technical).\n\nSystemic Guidance:\n- Emphasize interactions and dynamics.\n- Address multi-level relations.\n- Consider emergent behavior.",
+        "meta": {
+            "mode": "generate",
+            "task": "autism spectum adults",
+            "context": "",
+            "requirements": "",
+            "style": "professional \u2014 Specify tone (formal, conversational, technical).",
+            "source": "",
+            "awareness_mode": "systemic"
+        }
+    },
+    {
+        "timestamp": "2026-04-05T06:34:52",
+        "content": "Original Text:\nautism spectrum awareness\n\nTarget Style:\nscientific\n\n- Improve coherence, precision, and readability.\n\n- Preserve key intent while enhancing structure.\n\nArgument Strengthening:\n- Clarify the central claim and ensure it is explicit.\n- Identify the strongest supporting evidence and foreground it.\n- Address potential counterarguments directly.\n- Strengthen logical transitions between major points.\n- Ensure each paragraph advances the argument rather than repeating it.",
+        "meta": {
+            "mode": "refine",
+            "notes": "",
+            "target_style": "scientific",
+            "awareness_mode": "default"
+        }
+    },
+    {
+        "timestamp": "2026-04-05T06:44:13",
+        "content": "## Task\nawareness research physics\n\n## Style\nscientific \u2014 Specify tone (formal, conversational, technical).\n\n## Architectural Guidance\n- Identify modules and subsystems.\n- Clarify information flow.\n- Specify constraints and interfaces.",
+        "meta": {
+            "mode": "generate",
+            "task": "awareness research physics",
+            "context": "",
+            "requirements": "",
+            "style": "scientific \u2014 Specify tone (formal, conversational, technical).",
+            "source": "",
+            "awareness_mode": "architecture"
+        }
+    },
+    {
+        "timestamp": "2026-04-05T06:44:31",
+        "content": "Original Text:\n## Task\nawareness research physics\n\n## Style\nscientific \u2014 Specify tone (formal, conversational, technical).\n\n## Architectural Guidance\n- Identify modules and subsystems.\n- Clarify information flow.\n- Specify constraints and interfaces.\n\n- Strengthen modular and structural clarity.\n\n- Highlight system interactions.\n\n- Improve coherence, precision, and readability.\n\n- Preserve key intent while enhancing structure.\n\nArgument Strengthening:\n- Clarify the central claim and ensure it is explicit.\n- Identify the strongest supporting evidence and foreground it.\n- Address potential counterarguments directly.\n- Strengthen logical transitions between major points.\n- Ensure each paragraph advances the argument rather than repeating it.\n\nClarity Compression:\n- Remove redundant phrasing.\n- Shorten long sentences.\n- Replace vague terms with precise ones.\n- Ensure each paragraph has a single clear purpose.",
+        "meta": {
+            "mode": "refine",
+            "notes": "",
+            "target_style": "",
+            "awareness_mode": "architecture"
+        }
+    },
+    {
+        "timestamp": "2026-04-06T07:55:06",
+        "content": "## Task\nawareness research\n\n## Style\nscientific, formal \u2014 Specify tone (formal, conversational, technical).",
+        "meta": {
+            "mode": "generate",
+            "task": "awareness research",
+            "context": "",
+            "requirements": "",
+            "style": "scientific, formal \u2014 Specify tone (formal, conversational, technical).",
+            "source": "",
+            "awareness_mode": "default"
+        }
+    },
+    {
+        "timestamp": "2026-04-06T08:07:41",
+        "content": "Original Text:\nawareness research\n\nRefinement Notes:\nphysics specific\n\nTarget Style:\nprofessional\n\n- Improve coherence, precision, and readability.\n\n- Preserve key intent while enhancing structure.",
+        "meta": {
+            "mode": "refine",
+            "notes": "physics specific",
+            "target_style": "professional",
+            "awareness_mode": "default"
+        }
+    },
+    {
+        "timestamp": "2026-04-06T08:14:53",
+        "content": "Task:\nawareness science\n\nContext:\nphysics level\n\nRequirements:\nscience, physics,medical\n\nStyle:\nprofessional",
+        "meta": {
+            "mode": "generate",
+            "task": "awareness science",
+            "context": "physics level",
+            "requirements": "science, physics,medical",
+            "style": "professional",
+            "source": "",
+            "awareness_mode": "default"
+        }
+    },
+    {
+        "timestamp": "2026-04-06T09:32:07",
+        "content": "Task:\nsci \u2014 Analyze cognitive mechanisms involved.\n\nContext:\ns \u2014 Specify theoretical framework.\n\nStyle:\nprofessional\n\nOutput Formatting:\n- Use clear headings.\n- Use bullet lists for structure.\n- Use code blocks for examples.\n- Maintain consistent markdown style.\n\nOutput Formatting:\n- Provide hierarchical outline.\n- Use numbered sections.\n- Include subpoints and structure.\n- Maintain academic clarity.",
+        "meta": {
+            "mode": "generate",
+            "task": "sci \u2014 Analyze cognitive mechanisms involved.",
+            "context": "s \u2014 Specify theoretical framework.",
+            "requirements": "",
+            "style": "professional",
+            "awareness_mode": "default"
+        }
+    },
+    {
+        "timestamp": "2026-04-06T11:15:38",
+        "content": "Task:\nawareness \u2014 Analyze cognitive mechanisms involved. Identify relevant cognitive processes.\n\nContext:\nscience, physics, neurology\n\nStyle:\nprofessional\n\nMode Guidance:\n\n- Focus on interpretation and meaning.\n\n- Identify underlying assumptions.\n\n- Explore multiple layers of significance.\n\nOutput Formatting:\n- Use clear headings.\n- Use bullet lists for structure.\n- Use code blocks for examples.\n- Maintain consistent markdown style.\n\nOutput Formatting:\n- Provide hierarchical outline.\n- Use numbered sections.\n- Include subpoints and structure.\n- Maintain academic clarity.",
+        "meta": {
+            "mode": "generate",
+            "task": "awareness \u2014 Analyze cognitive mechanisms involved. Identify relevant cognitive processes.",
+            "context": "science, physics, neurology",
+            "requirements": "",
+            "style": "professional",
+            "awareness_mode": "hermeneutic"
+        }
+    },
+    {
+        "timestamp": "2026-04-06T11:16:01",
+        "content": "Task:\nawareness \u2014 Analyze cognitive mechanisms involved. Identify relevant cognitive processes.\n\nContext:\nscience, physics, neurology\n\nStyle:\nprofessional\n\nMode Guidance:\n\n- Focus on interpretation and meaning.\n\n- Identify underlying assumptions.\n\n- Explore multiple layers of significance.\n\nOutput Formatting:\n- Use clear headings.\n- Use bullet lists for structure.\n- Use code blocks for examples.\n- Maintain consistent markdown style.\n\nOutput Formatting:\n- Provide hierarchical outline.\n- Use numbered sections.\n- Include subpoints and structure.\n- Maintain academic clarity.\n\nRefinement Guidance:\n- Strengthen logical transitions.\n- Add justification for key claims.\n- Clarify premises and conclusions.\n- Identify missing inferential steps.\n\nRefinement Guidance:\n- Remove redundancy.\n- Tighten phrasing.\n- Increase clarity and precision.\n- Simplify complex sentences.\n\nRefinement Guidance:\n- Identify key concepts.\n- Map relationships between ideas.\n- Highlight structural dependencies.\n- Clarify conceptual hierarchy.\n\nOutput Formatting:\n- Use clear headings.\n- Use bullet lists for structure.\n- Use code blocks for examples.\n- Maintain consistent markdown style.\n\nOutput Formatting:\n- Provide hierarchical outline.\n- Use numbered sections.\n- Include subpoints and structure.\n- Maintain academic clarity.",
+        "meta": {
+            "mode": "refine",
+            "notes": "",
+            "target_style": "",
+            "awareness_mode": "hermeneutic"
+        }
+    }
+]

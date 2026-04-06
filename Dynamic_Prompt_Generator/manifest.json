@@ -1,0 +1,13 @@
+{
+  "name": "Scholarly Prompt Studio",
+  "version": "2.0.0",
+  "description": "A modular cognitive writing environment built with KivyMD.",
+  "author": "Rob",
+  "license": "MIT",
+  "plugins": {
+    "suggestions": "plugins/suggestions",
+    "modes": "plugins/modes",
+    "refinement": "plugins/refinement",
+    "output": "plugins/output"
+  }
+}

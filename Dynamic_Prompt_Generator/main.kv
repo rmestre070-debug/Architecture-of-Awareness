@@ -1,0 +1,306 @@
+#:kivy 2.3.0
+#:import MDBoxLayout kivymd.uix.boxlayout.MDBoxLayout
+#:import MDToolbar kivymd.uix.toolbar.MDToolbar
+#:import MDTextField kivymd.uix.textfield.MDTextField
+#:import MDLabel kivymd.uix.label.MDLabel
+#:import MDRectangleFlatButton kivymd.uix.button.MDRectangleFlatButton
+#:import MDFillRoundFlatButton kivymd.uix.button.MDFillRoundFlatButton
+#:import MDIconButton kivymd.uix.button.MDIconButton
+
+MDScreen:
+    MDBoxLayout:
+        orientation: "vertical"
+
+        # ----------------------------------------------------
+        # TOP TOOLBAR (Left removed, Right brain tinted)
+        # ----------------------------------------------------
+        MDToolbar:
+            id: toolbar
+            title: "Scholarly Prompt Studio"
+            elevation: 4
+            left_action_items: []  # No left icon
+            right_action_items: [["brain", lambda x: None]]
+
+        # ----------------------------------------------------
+        # MODE BADGE + KERNEL INDICATOR
+        # ----------------------------------------------------
+        MDBoxLayout:
+            orientation: "vertical"
+            padding: dp(8)
+            spacing: dp(4)
+
+            MDLabel:
+                id: mode_badge
+                text: "Mode: Default"
+                size_hint_y: None
+                height: self.texture_size[1] + dp(4)
+                theme_text_color: "Secondary"
+
+            MDLabel:
+                id: kernel_indicator
+                text: "Kernel: Default • Plugins: 0 • Refinement Depth: 1"
+                size_hint_y: None
+                height: self.texture_size[1] + dp(4)
+                theme_text_color: "Secondary"
+                # ----------------------------------------------------
+        # MAIN SCREEN MANAGER
+        # ----------------------------------------------------
+        ScreenManager:
+            id: sm
+
+            # ---------------- SPLASH ----------------
+            SplashScreen:
+                name: "splash"
+
+                MDBoxLayout:
+                    id: splash_root
+                    orientation: "vertical"
+                    opacity: 0
+                    padding: dp(32)
+                    spacing: dp(16)
+
+                    MDLabel:
+                        text: "Scholarly Prompt Studio"
+                        halign: "center"
+                        font_style: "H4"
+
+                    MDLabel:
+                        text: "Architecture of Awareness"
+                        halign: "center"
+                        theme_text_color: "Secondary"
+
+            # ---------------- GENERATE ----------------
+            GenerateScreen:
+                name: "generate"
+
+                MDBoxLayout:
+                    orientation: "vertical"
+                    padding: dp(8)
+                    spacing: dp(8)
+
+                    ScrollView:
+                        MDBoxLayout:
+                            orientation: "vertical"
+                            size_hint_y: None
+                            height: self.minimum_height
+                            spacing: dp(8)
+
+                            MDTextField:
+                                id: task_field
+                                hint_text: "Task"
+                                multiline: True
+
+                            MDBoxLayout:
+                                id: task_suggestions_box
+                                size_hint_y: None
+                                height: self.minimum_height
+                                spacing: dp(4)
+
+                            MDTextField:
+                                id: context_field
+                                hint_text: "Context"
+                                multiline: True
+
+                            MDBoxLayout:
+                                id: context_suggestions_box
+                                size_hint_y: None
+                                height: self.minimum_height
+                                spacing: dp(4)
+
+                            MDTextField:
+                                id: requirements_field
+                                hint_text: "Requirements"
+                                multiline: True
+
+                            MDBoxLayout:
+                                id: requirements_suggestions_box
+                                size_hint_y: None
+                                height: self.minimum_height
+                                spacing: dp(4)
+
+                            MDTextField:
+                                id: style_field
+                                hint_text: "Style"
+                                multiline: True
+
+                            MDBoxLayout:
+                                id: style_suggestions_box
+                                size_hint_y: None
+                                height: self.minimum_height
+                                spacing: dp(4)
+
+                    MDBoxLayout:
+                        size_hint_y: None
+                        height: dp(56)
+                        spacing: dp(8)
+
+                        MDFillRoundFlatButton:
+                            text: "Generate"
+                            on_release: app.on_generate()
+
+                        MDRectangleFlatButton:
+                            text: "Clear"
+                            on_release: app.clear_generate_page()
+
+                        MDRectangleFlatButton:
+                            id: mode_dropdown
+                            text: "Mode"
+                            on_release: app.open_mode_menu(self)
+                            # ---------------- REFINE ----------------
+            RefineScreen:
+                name: "refine"
+
+                MDBoxLayout:
+                    orientation: "vertical"
+                    padding: dp(8)
+                    spacing: dp(8)
+
+                    ScrollView:
+                        MDBoxLayout:
+                            orientation: "vertical"
+                            size_hint_y: None
+                            height: self.minimum_height
+                            spacing: dp(8)
+
+                            MDTextField:
+                                id: original_field
+                                hint_text: "Original text"
+                                multiline: True
+
+                            MDTextField:
+                                id: notes_field
+                                hint_text: "Refinement notes"
+                                multiline: True
+
+                            MDTextField:
+                                id: target_style_field
+                                hint_text: "Target style"
+                                multiline: True
+
+                    MDBoxLayout:
+                        size_hint_y: None
+                        height: dp(56)
+                        spacing: dp(8)
+
+                        MDFillRoundFlatButton:
+                            text: "Refine"
+                            on_release: app.on_refine()
+
+            # ---------------- OUTPUT ----------------
+            OutputScreen:
+                name: "output"
+
+                MDBoxLayout:
+                    orientation: "vertical"
+                    padding: dp(8)
+                    spacing: dp(8)
+
+                    ScrollView:
+                        MDBoxLayout:
+                            orientation: "vertical"
+                            size_hint_y: None
+                            height: self.minimum_height
+
+                            MDTextField:
+                                id: output_text
+                                hint_text: "Output"
+                                multiline: True
+
+                    MDBoxLayout:
+                        size_hint_y: None
+                        height: dp(56)
+                        spacing: dp(8)
+
+                        MDFillRoundFlatButton:
+                            text: "Copy"
+                            on_release: app.copy_output()
+
+                        MDRectangleFlatButton:
+                            text: "Save"
+                            on_release: app.save_output_to_history()
+
+                        MDRectangleFlatButton:
+                            text: "Refine Again"
+                            on_release: app.refine_again()
+
+            # ---------------- HISTORY ----------------
+            HistoryScreen:
+                name: "history"
+
+                MDBoxLayout:
+                    orientation: "vertical"
+                    padding: dp(8)
+                    spacing: dp(8)
+
+                    ScrollView:
+                        MDBoxLayout:
+                            orientation: "vertical"
+                            size_hint_y: None
+                            height: self.minimum_height
+
+                            MDTextField:
+                                id: history_field
+                                hint_text: "History"
+                                multiline: True
+                                readonly: True
+
+            # ---------------- SETTINGS ----------------
+            SettingsScreen:
+                name: "settings"
+
+                MDBoxLayout:
+                    orientation: "vertical"
+                    padding: dp(8)
+                    spacing: dp(8)
+
+                    MDLabel:
+                        text: "Theme"
+                        size_hint_y: None
+                        height: self.texture_size[1] + dp(4)
+
+                    MDBoxLayout:
+                        size_hint_y: None
+                        height: dp(48)
+                        spacing: dp(8)
+
+                        MDRectangleFlatButton:
+                            text: "Light"
+                            on_release: app.set_light_mode()
+
+                        MDRectangleFlatButton:
+                            text: "Dark"
+                            on_release: app.set_dark_mode()
+
+                        MDRectangleFlatButton:
+                            text: "System"
+                            on_release: app.set_system_mode()
+                            # ----------------------------------------------------
+        # BOTTOM NAV BAR (No FBO, No crashes)
+        # ----------------------------------------------------
+        MDBoxLayout:
+            id: nav_bar
+            size_hint_y: None
+            height: dp(56)
+            padding: dp(8)
+            spacing: dp(24)
+            md_bg_color: app.theme_cls.bg_dark if app.theme_cls.theme_style == "Dark" else app.theme_cls.bg_light
+
+            MDIconButton:
+                icon: "lightbulb-on-outline"
+                on_release: app.switch_screen("generate")
+
+            MDIconButton:
+                icon: "tune"
+                on_release: app.switch_screen("refine")
+
+            MDIconButton:
+                icon: "file-document-outline"
+                on_release: app.switch_screen("output")
+
+            MDIconButton:
+                icon: "history"
+                on_release: app.switch_screen("history")
+
+            MDIconButton:
+                icon: "cog-outline"
+                on_release: app.switch_screen("settings")
