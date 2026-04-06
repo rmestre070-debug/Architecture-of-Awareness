@@ -1,0 +1,24 @@
+{
+    "version": "1.0",
+    "modes": [
+        "hermeneutic",
+        "dialectical",
+        "pragmatic",
+        "narrative",
+        "structuralist"
+    ],
+    "refinement": [
+        "argument_strengthener",
+        "clarity_compressor",
+        "conceptual_mapper"
+    ],
+    "output": [
+        "markdown_formatter",
+        "outline_generator"
+    ],
+    "suggestions": [
+        "cognitive_science_pack",
+        "academic_discipline_pack",
+        "research_methods_pack"
+    ]
+}
